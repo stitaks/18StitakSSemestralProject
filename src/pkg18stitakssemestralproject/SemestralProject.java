@@ -19,7 +19,7 @@ import java.util.Scanner;
  * 10 15 -10 -15 -18 0 1,5 1,6 1,4 1 
  */
 public class SemestralProject {
-    public static void run(String[] args) {
+    public static void run() {
         Scanner sc=new Scanner(System.in);
         while(true){
             System.out.println("Program opakovaně načítá matice a řadí je vzestupně podle prvního sloupce.");

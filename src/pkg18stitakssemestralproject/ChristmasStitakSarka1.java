@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author SarkaStitak
  */
 public class ChristmasStitakSarka1 {
-    public static void run(String[] args) {
+    public static void run() {
         Scanner sc=new Scanner(System.in);
         int pocetPonozek, sirkaKrbu,svicky, datum;
         String ohen ;
