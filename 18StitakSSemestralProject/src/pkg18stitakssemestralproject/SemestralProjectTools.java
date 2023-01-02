@@ -43,12 +43,13 @@ public final class SemestralProjectTools {
      * @param matice 
      */
     public static void display (double [][] matice){
-        for (int i=0; i<matice.length; i++)
+        for (int i=0; i<matice.length; i++){
             for (int j=0; j<matice[i].length; j++){
                 System.out.print(matice[i][j] + " ");
                 if (j==(matice[i].length)-1){
                     System.out.println();
                 }
             }
+        }
     }
 }

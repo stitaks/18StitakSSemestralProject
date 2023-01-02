@@ -23,8 +23,8 @@ public class Main {
             System.out.println("Při napsání čehokoliv jiného než 1 a 2 se program ukončí.");
             int menu = sc.nextInt();
             switch (menu){
-                case 1 : ChristmasStitakSarka1.main(args); break;
-                case 2 : SemestralProject.main(args);break;
+                case 1 : ChristmasStitakSarka1.run(args); break;
+                case 2 : SemestralProject.run(args);break;
                 default : break spouštěníProgram;
             }
         }
